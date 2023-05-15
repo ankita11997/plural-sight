@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: blanchedalmond;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+.form-section{
+       width: 40%;
+       background-color: black;
+}      
+.form{
+       
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+}       
+        .form label{
+            color: white;
+             margin-right:200px;
+             font-size: 22px;
+             margin-top: 10px;
+        }
+        .form input{
+            height:30px;
+            width: 370px;
+            margin-top: 8px;
+            background-color: black;
+            border: 1px solid white;
+             border-radius: 2px;
+        }
+        .form-section img{
+            width: 300px;
+           margin: 70px;
+           margin-left: 120px;
+           
+           
+          }
+          .form button{
+            height: 35px;
+            width: 370px;
+            margin-top: 25px;
+             background-color: rgb(50, 110, 162);
+             color: white;
+             border: none;
+          }
+          .form a{
+            color: rgb(50, 110, 162);
+              margin-top: 20px;
+          }
+
+            hr{
+               width: 400px;
+               height: 2px;
+               margin-top: 20px;
+          }
+            #btn{
+                background-color: grey;
+            }
+            p{
+                color: white;
+                margin-top: 20px;
+                text-align: center;
+            }
+            
+
+.image-part{
+    width: 60%;
+    height: 100vh;
+    background-color: rgb(77, 71, 71);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .image-part img{
+    height: 450px;
+    width: 490px;
+    
+ }
+ .image-part button{
+     height:40px;
+     width: 120px;
+     background-color: rgb(204, 44, 98);
+     border: none;
+     color: white;
+     font-size: 15px;
+ }
+  
+
+  @media (max-width: 768px){
+    .form-section{
+        width: 100%;
+    }
+    .image-part{
+        display: none;
+    }
+  }
+
+ 
